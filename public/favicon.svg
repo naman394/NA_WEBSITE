@@ -1,0 +1,15 @@
+<svg width="64" height="64" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Super Agent Icon</title>
+  <desc id="desc">Minimal network-style icon for an AI automation agent</desc>
+  <!-- Soft rounded background to match the warm, refined branding -->
+  <rect x="0" y="0" width="24" height="24" rx="6" fill="#FFFBF7" />
+  <!-- Network of connected nodes, mirroring the header logo -->
+  <circle cx="12" cy="5" r="2.3" fill="#111111"/>
+  <circle cx="5" cy="12" r="2.3" fill="#111111"/>
+  <circle cx="19" cy="12" r="2.3" fill="#111111"/>
+  <circle cx="12" cy="19" r="2.3" fill="#111111"/>
+  <path d="M12 5V19" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M5 12H19" stroke="#111111" stroke-width="1.8" stroke-linecap="round"/>
+</svg>
+
+
