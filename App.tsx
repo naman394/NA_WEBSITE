@@ -3,7 +3,11 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import PhoneSection from './components/PhoneSection';
+import OrbitingShowcase from './components/OrbitingShowcase';
+import { WebSolutionCard } from './components/WebSolutionCard';
+import { AgentCard } from './components/AgentCard';
 import FAQ from './components/FAQ';
+import { PricingWidget } from './components/PricingWidget';
 import Footer from './components/Footer';
 import LoaderScreen from './components/LoaderScreen';
 import FallingStars from './components/FallingStars';
@@ -57,9 +61,27 @@ const App: React.FC = () => {
           </div>
         </section>
 
+        {/* Orbiting Showcase Section */}
+        <section className="w-full flex flex-col items-center">
+          <OrbitingShowcase />
+        </section>
+
+        {/* Solution Cards Section */}
+        <section className="w-full flex flex-col items-center pt-8 pb-20 px-6 bg-slate-50 -mt-20">
+          <div className="w-full max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+            <AgentCard />
+            <WebSolutionCard />
+          </div>
+        </section>
+
         {/* Rest of page scrolls after the image section */}
         <section className="w-full flex flex-col items-center">
           <FAQ />
+        </section>
+
+        {/* Pricing Section */}
+        <section className="w-full flex flex-col items-center">
+          <PricingWidget />
         </section>
       </main>
 

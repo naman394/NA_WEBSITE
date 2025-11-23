@@ -57,7 +57,7 @@ const AgentReveal: React.FC = () => {
         >
             <h2 className="font-serif text-5xl md:text-7xl text-[#111] tracking-tight leading-none mb-4">
                 A new era of humans,<br/>
-                with Super Agents
+                with iotaAI agents
             </h2>
             <div className="inline-block bg-black text-white px-6 py-3 rounded-lg font-medium text-lg mt-8">
                 Build your own agent
@@ -131,7 +131,7 @@ const AgentReveal: React.FC = () => {
                     />
                     {/* Branding on Mask */}
                     <text x="25" y="28" fontFamily="sans-serif" fontSize="5" fill="rgba(0,0,0,0.4)" fontWeight="bold">
-                        <tspan>◆ Super Agent</tspan>
+                        <tspan>◆ iotaAI</tspan>
                     </text>
                 </svg>
             </motion.div>

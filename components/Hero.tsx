@@ -46,7 +46,7 @@ const Hero: React.FC = () => {
             </div>
         </div>
         <p className="text-sm font-medium text-gray-800 max-w-[180px] text-left leading-snug">
-          Join 500+ businesses automating with Super Agent.
+          Join 500+ businesses automating with iotaAI.
         </p>
       </div>
     </div>

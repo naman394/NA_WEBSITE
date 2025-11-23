@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                 <path d="M12 5V19" stroke="white" strokeWidth="2" strokeLinecap="round"/>
                 <path d="M5 12H19" stroke="white" strokeWidth="2" strokeLinecap="round"/>
               </svg>
-              <span className="text-xl font-serif font-medium tracking-tight">Super Agent</span>
+              <span className="text-xl font-serif font-medium tracking-tight">iotaAI</span>
             </div>
             <p className="text-white/70 text-sm leading-relaxed mb-6 pr-4">
               Empowering modern businesses with intelligent automation and custom AI workforce solutions.
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-white/40">
-          <p>© 2025 Super Agent Technologies Inc. All rights reserved.</p>
+          <p>© 2025 iotaAI Technologies Inc. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Terms of Service</a>

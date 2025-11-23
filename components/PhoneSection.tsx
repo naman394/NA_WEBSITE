@@ -226,13 +226,13 @@ const PhoneSection: React.FC = () => {
               </div>
 
               {/* Absolute Overlay: Set up your Workspace */}
-              <motion.div 
+                  <motion.div 
                   initial={{ opacity: 0, y: 20, scale: 0.95 }}
                   whileInView={{ opacity: 1, y: 0, scale: 1 }}
                   transition={{ duration: 0.6, delay: 0.2 }}
                   className="absolute right-8 bottom-16 w-[420px] bg-white rounded-2xl shadow-2xl border border-gray-100 p-8 z-50"
               >
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Build your Super Agent.</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">Build your iotaAI agent.</h3>
                   <p className="text-gray-500 mb-6 text-[15px]">Configure your custom automation solution.</p>
 
                   <div className="flex flex-wrap gap-2 mb-8">

@@ -8,22 +8,22 @@ const reviews = [
     img: "https://picsum.photos/100/100?random=30"
   },
   {
-    text: "With Super Agent I keep all data privacy controls and only pay minimal fees for the compute I use. It's transparent and scalable.",
+    text: "With iotaAI I keep all data privacy controls and only pay minimal fees for the compute I use. It's transparent and scalable.",
     name: "Mohammad A",
     img: "https://picsum.photos/100/100?random=33"
   },
   {
-    text: "Super Agent has almost everything you need to run your automation agency online. An awesome partner to have for scaling.",
+    text: "iotaAI has almost everything you need to run your automation agency online. An awesome partner to have for scaling.",
     name: "Jake A",
     img: "https://picsum.photos/100/100?random=36"
   },
   {
-    text: "Super Agent has been an absolute lifesaver when it comes to minimizing manual data entry fees and driving direct automation workflows.",
+    text: "iotaAI has been an absolute lifesaver when it comes to minimizing manual data entry fees and driving direct automation workflows.",
     name: "Tara B",
     img: "https://picsum.photos/100/100?random=31"
   },
   {
-    text: "My support agents operate 24/7, yet Super Agent's technical support has ALWAYS been active and able to help me with any complex logic concerns!",
+    text: "My support agents operate 24/7, yet iotaAI's technical support has ALWAYS been active and able to help me with any complex logic concerns!",
     name: "Daryl E",
     img: "https://picsum.photos/100/100?random=34"
   },
