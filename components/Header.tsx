@@ -40,6 +40,13 @@ const Header: React.FC = () => {
     }
   };
 
+  const handleLogoClick = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   const NavContent = (
     <div className="flex items-center justify-between gap-8">
       {/* Left Links */}
@@ -60,12 +67,15 @@ const Header: React.FC = () => {
 
       {/* Center Logo + Brand */}
       <div className="flex-1 flex justify-center">
-        <div className="flex items-center gap-3">
+        <button 
+          onClick={handleLogoClick}
+          className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity"
+        >
           <Logo />
           <span className="text-2xl font-serif font-semibold tracking-tight text-white drop-shadow-sm">
             iotaAI
           </span>
-        </div>
+        </button>
       </div>
 
       {/* Right Action */}

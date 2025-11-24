@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://framerusercontent.com/images/mzMKLKsYnRpGNC2hdtBEBC5cVMs.png?scale-down-to=1024&width=1920&height=1172" 
+          src="https://images.unsplash.com/photo-1696777406868-5258913ef41d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
           alt="Footer Background" 
           className="w-full h-full object-cover"
         />
