@@ -62,7 +62,7 @@ const App: React.FC = () => {
         </section>
 
         {/* Orbiting Showcase Section */}
-        <section className="w-full flex flex-col items-center">
+        <section id="overview-section" className="w-full flex flex-col items-center">
           <OrbitingShowcase />
         </section>
 
@@ -75,7 +75,7 @@ const App: React.FC = () => {
         </section>
 
         {/* Rest of page scrolls after the image section */}
-        <section className="w-full flex flex-col items-center">
+        <section id="qa-section" className="w-full flex flex-col items-center">
           <FAQ />
         </section>
 

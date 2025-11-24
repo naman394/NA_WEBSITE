@@ -13,16 +13,49 @@ const Header: React.FC = () => {
     return () => unsubscribe();
   }, [scrollY]);
 
+  const handleScrollTo = (elementId: string) => {
+    const element = document.getElementById(elementId);
+    if (element) {
+      if (elementId === 'overview-section') {
+        // For overview, scroll further into the section to hide hero completely
+        const elementPosition = element.getBoundingClientRect().top;
+        const additionalOffset = 200; // Extra space to ensure hero is completely hidden
+        const offsetPosition = elementPosition + window.pageYOffset - 100 + additionalOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      } else {
+        // Normal scroll for other sections
+        const headerOffset = 100;
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+      }
+    }
+  };
+
   const NavContent = (
     <div className="flex items-center justify-between gap-8">
       {/* Left Links */}
       <div className="flex items-center gap-6">
-        <a href="#" className="text-base font-semibold text-white hover:text-white/80 transition-colors">
+        <button 
+          onClick={() => handleScrollTo('overview-section')}
+          className="text-base font-semibold text-white hover:text-white/80 transition-colors cursor-pointer"
+        >
           Overview
-        </a>
-        <a href="#" className="text-base font-semibold text-white hover:text-white/80 transition-colors">
-          Contact
-        </a>
+        </button>
+        <button 
+          onClick={() => handleScrollTo('qa-section')}
+          className="text-base font-semibold text-white hover:text-white/80 transition-colors cursor-pointer"
+        >
+          Q and A
+        </button>
       </div>
 
       {/* Center Logo + Brand */}

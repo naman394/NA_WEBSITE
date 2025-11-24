@@ -29,7 +29,7 @@ const FAQ: React.FC = () => {
   ];
 
   return (
-    <div className="w-full max-w-[1100px] mx-auto px-6 md:px-4 py-24 md:py-32 relative z-20">
+    <div className="w-full max-w-[1100px] mx-auto px-6 md:px-4 pt-0 pb-24 md:pb-32 relative z-20">
        {/* Subtle top separator */}
        <div className="w-full h-px bg-gray-200/60 mb-20" />
        
